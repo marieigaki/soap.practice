@@ -372,4 +372,118 @@ footer {
   text-align: center;
   color: #fff;
 }
+
+/*========================モバイル====================*/
+@media screen and (max-width: 520px) {
+  .wrapper {
+    width: 90%;
+  }
+  .gnavi__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .item1 {
+    order: 1;
+  }
+  .item2 {
+    order: 2;
+  }
+  .item3 {
+    order: 3;
+  }
+  .item4 {
+    order: 4;
+  }
+  .item5 {
+    order: 5;
+  }
+  .header__bigtext {
+    font-size: 35px;
+    padding: 30px 50px 0 50px;
+  }
+  .header__text {
+    padding: 20px 50px 0 50px;
+  }
+  .btn {
+    margin: 50px auto;
+  }
+  #about {
+    width: 90%;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+  }
+  .about__text {
+    font-size: 16px;
+  }
+  .big__bg {
+    background-position: top center;
+  }
+  h1 {
+    margin-bottom: 50px;
+  }
+  #products {
+    margin-top: 70px;
+  }
+  .products__box {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .products__box:nth-of-type(even) {
+    flex-flow: column-reverse;
+  }
+  .products__box__pic:nth-child(odd), .products__box__pic:nth-child(even) {
+    margin: 0 auto 20px auto;
+  }
+  .products__box h2 {
+    margin-bottom: 10px;
+  }
+  .products__box p {
+    margin-bottom: 10px;
+  }
+  .rank__box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .rank__box li img {
+    margin-bottom: 30px;
+  }
+  .rank__box li p {
+    margin-left: 0;
+  }
+  .area {
+    padding-bottom: 30px;
+  }
+  .shop__box img {
+    display: none;
+  }
+  #ranking {
+    margin-bottom: 0;
+  }
+  #shop {
+    background-image: url(../images/shop01.png);
+    background-size: cover;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+  }
+  .shop__title {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0 0 0;
+    margin-bottom: 50px;
+  }
+  .shop__btnbox {
+    margin-right: 0;
+  }
+  .under__list {
+    flex-direction: column;
+    text-align: center;
+  }
+  .under__list__item {
+    margin-bottom: 10px;
+  }
+  .under__list__item__link {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
